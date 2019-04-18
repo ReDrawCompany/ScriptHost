@@ -10,9 +10,9 @@
     console.log( boxes );
 
     for( let i = 0;i < boxes.length;i++ ) {
-        boxes[ i ].value = data.value[ i ];
-        boxes[ i ].textContent = data.textContent[ i ];
-        boxes[ i ].checked = data.checked[ i ];
+        boxes[ i ].value = data.value[ i ] || null;
+        boxes[ i ].textContent = data.textContent[ i ] || null;
+        boxes[ i ].checked = data.checked[ i ] || null;
     }
 
     setInterval(() => {
