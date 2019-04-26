@@ -1,0 +1,1 @@
+javascript:(function(){document.querySelectorAll('table > tbody > tr > td.letter').forEach(x=>x.outerHTML=`<td class="letter"><div class="letter" style="color:#007F00;background-color:#DAF2DA" title=""><div><div>A<span class="percent">4.00</span></div></div></div></td>`);})();
